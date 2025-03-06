@@ -102,7 +102,7 @@ class LinuxDoBrowser:
                 break
 
             # 动态随机等待
-            wait_time = random.uniform(2, 4)  # 随机等待 2-4 秒
+            wait_time = random.uniform(1.5, 3)  # 随机等待 1.5-3 秒
             logger.info(f"等待 {wait_time:.2f} 秒...")
             time.sleep(wait_time)
 
